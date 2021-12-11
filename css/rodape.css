@@ -1,0 +1,133 @@
+/*Inicio rodapé */
+.rodape {
+  background: grey;
+  height: auto;
+  color: white;
+  border-top: 6px solid yellow;
+}
+
+.rodape h4 {
+  color: yellow;
+  font-size: 1rem;
+}
+
+.rodape p {
+  margin: auto 0;
+  font-size: 0.7rem;
+}
+
+#rodape-logo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 4rem;
+}
+
+#rodape-social {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.rodape-social-item {
+  margin: auto 6px;
+  font-size: 1.4rem;
+}
+
+#rodape-institucional {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+}
+
+.rodape-institucional-item {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.rodape-institucional-item:last-of-type i {
+  align-self: baseline;
+  padding-top: 8px;
+}
+
+.rodape-institucional-item i {
+  margin: 0 8px 0 auto;
+  font-size: 0.7rem;
+  padding-top: 2px;
+}
+
+#desenvolvedora {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+}
+
+#desenvolvedora p {
+  margin: auto 10px;
+}
+
+/************************************************************************/
+
+/* DESKTOP */
+@media (min-width: 1280px) {
+}
+
+/************************************************************************/
+
+/* TABLET */
+@media (min-width: 768px) and (max-width: 1279px) {
+  .rodape h4 {
+    font-size: 0.8rem;
+  }
+
+  .rodape p {
+    font-size: 0.6rem;
+  }
+
+  .rodape-social-item {
+    margin: auto 0px;
+    font-size: 1.4rem;
+  }
+
+  .rodape-institucional-item i {
+    margin: 0 4px 0 auto;
+    font-size: 0.7rem;
+    align-self: baseline;
+    padding-top: 4px;
+  }
+}
+
+/************************************************************************/
+/* SMARTPHONE */
+@media (min-width: 360px) and (max-width: 767px) {
+  .rodape h4 {
+    font-size: 0.8rem;
+  }
+
+  .rodape p {
+    font-size: 0.6rem;
+  }
+
+  #rodape-logo {
+    font-size: 3rem;
+  }
+
+  .rodape-social-item {
+    margin: auto 0px;
+    font-size: 1.2rem;
+  }
+
+  .rodape-institucional-item i {
+    margin: 0 4px 0 auto;
+    font-size: 0.7rem;
+  }
+}

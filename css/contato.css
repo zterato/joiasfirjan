@@ -1,0 +1,34 @@
+.contato {
+  margin: 2rem auto 2rem auto;
+}
+
+.contato h2:first-of-type {
+  margin-bottom: 1.4rem;
+  font-family: "Lora", serif;
+  font-size: 1.5rem;
+}
+
+.contato h3 {
+  font-size: 1.4rem;
+}
+
+.contato form {
+  margin-top: 1.4rem;
+}
+
+/************************************************************************/
+
+/* DESKTOP */
+@media (min-width: 1280px) {
+}
+
+/************************************************************************/
+
+/* TABLET */
+@media (min-width: 768px) {
+}
+
+/************************************************************************/
+/* SMARTPHONE */
+@media (min-width: 360px) {
+}

@@ -1,0 +1,31 @@
+@charset "utf-8";
+/* CSS Document */
+
+html {
+  font-family: "Noto Sans", sans-serif;
+  font-size: 20px;
+}
+
+/* tratando com o body*/
+body {
+  padding: 0;
+  margin: 0;
+}
+/* fim do tratamento com o body */
+
+/************************************************************************/
+
+/* DESKTOP */
+@media (min-width: 1280px) {
+}
+
+/************************************************************************/
+
+/* TABLET */
+@media (min-width: 768px) and (max-width: 1279px) {
+}
+
+/************************************************************************/
+/* SMARTPHONE */
+@media (min-width: 360px) and (max-width: 767px) {
+}

@@ -1,0 +1,32 @@
+/* Area do Banner */
+.banner {
+  height: 50vh;
+  width: 100%;
+}
+/* fim da area do banner */
+
+/************************************************************************/
+
+/* DESKTOP */
+@media (min-width: 1280px) {
+  #carouselExampleIndicators {
+    margin-top: 200px;
+  }
+}
+
+/************************************************************************/
+
+/* TABLET */
+@media (min-width: 768px) and (max-width: 1279px) {
+  #carouselExampleIndicators {
+    margin-top: 200px;
+  }
+}
+
+/************************************************************************/
+/* SMARTPHONE */
+@media (min-width: 360px) and (max-width: 767px) {
+  #carouselExampleIndicators {
+    margin-top: 140px;
+  }
+}
