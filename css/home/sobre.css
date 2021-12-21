@@ -1,0 +1,47 @@
+.sobre {
+  margin: 3rem auto 1rem auto;
+}
+
+.sobre h2:first-of-type {
+  margin-bottom: 1rem;
+  font-family: "Lora", serif;
+  font-size: 1.8rem;
+  color: #ffcd00;
+}
+
+.texto-sobre {
+  text-align: center;
+}
+
+/************************************************************************/
+
+/* DESKTOP */
+@media (min-width: 1280px) {
+  .texto-sobre div {
+    min-height: 200px;
+  }
+}
+
+/************************************************************************/
+
+/* TABLET */
+@media (min-width: 768px) and (max-width: 1279px) {
+  .texto-sobre div {
+    min-height: 200px;
+  }
+}
+
+/************************************************************************/
+/* SMARTPHONE */
+@media (min-width: 360px) and (max-width: 767px) {
+  .sobre {
+    margin-top: 3rem;
+  }
+
+  .texto-sobre div {
+    min-height: 100px;
+  }
+  .texto-sobre div:first-of-type {
+    margin-bottom: 0.8rem;
+  }
+}

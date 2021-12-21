@@ -1,0 +1,86 @@
+form .btn {
+  background-color: #ffcd00;
+  color: white;
+  font-weight: 500;
+  border: none;
+}
+
+form .btn:hover {
+  transition: 400ms;
+  background-color: #ffffff;
+  color: #ffcd00;
+  border: #ffcd00 1px solid;
+  cursor: pointer;
+}
+
+#produto_nome {
+  height: 2rem;
+}
+select {
+  height: 2rem;
+  border-color: #ced4da;
+  color: #495057;
+  font-weight: 400;
+}
+option {
+  color: #495057;
+  font-weight: 400;
+}
+
+.form-control:focus {
+  box-shadow: none;
+  border-color: #ced4da;
+}
+
+/************************************************************************/
+
+/* DESKTOP */
+@media (min-width: 1024px) {
+  #produto_tipo {
+    max-width: 148px;
+  }
+}
+
+/************************************************************************/
+
+/* TABLET */
+@media (min-width: 768px) and (max-width: 1023px) {
+    select {
+        width: 100%;
+    }
+
+    form {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    form div:last-of-type {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    form .btn {
+        margin-top: 14px;
+        width: 200px;
+    }
+}
+
+/************************************************************************/
+/* SMARTPHONE */
+@media (min-width: 360px) and (max-width: 767px) {
+    select {
+        width: 100%;
+    }
+    
+    form div:last-of-type {
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+
+    form .btn {
+        margin-top: 14px;
+        width: 200px;
+    }
+}

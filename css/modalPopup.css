@@ -1,0 +1,107 @@
+#popup-modal-title {
+  color: #000;
+  text-align: center;
+}
+
+#popup-modal .modal-header {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+
+#popup-modal button {
+  width: auto;
+  position: absolute;
+}
+
+.popup.modal-body > div {
+  display: flex;
+}
+
+.popup.modal-body > div > img {
+  width: 300px;
+}
+
+.popup.modal-body p {
+  background-color: #000;
+  color: #ffff00;
+  text-align: center;
+}
+
+/************************************************************************/
+
+/* DESKTOP */
+@media (min-width: 1024px) {
+  #popup-modal-title {
+    font-size: 1.8rem;
+  }
+
+  #popup-modal button {
+    top: 6px;
+    right: 24px;
+  }
+
+  .popup.modal-body > div {
+    flex-flow: row nowrap;
+    align-items: center;
+  }
+
+  .popup.modal-body > div > img {
+    margin-right: 10px;
+  }
+
+  .popup.modal-body p {
+    font-size: 1.7rem;
+  }
+}
+
+/************************************************************************/
+
+/* TABLET */
+@media (min-width: 768px) and (max-width: 1023px) {
+  #popup-modal-title {
+    font-size: 1.8rem;
+  }
+
+  #popup-modal button {
+    top: 3px;
+    right: 40px;
+  }
+
+  .popup.modal-body > div {
+    flex-flow: column nowrap;
+    align-items: center;
+  }
+
+  .popup.modal-body > div > img {
+    width: 360px;
+  }
+
+  .popup.modal-body p {
+    font-size: 1.2rem;
+    margin-top: -12px;
+  }
+}
+
+/************************************************************************/
+/* SMARTPHONE */
+@media (min-width: 360px) and (max-width: 767px) {
+  #popup-modal-title {
+    font-size: 1.5rem;
+  }
+
+  #popup-modal button {
+    top: 3px;
+    right: 10px;
+  }
+
+  .popup.modal-body > div {
+    flex-flow: column nowrap;
+    align-items: center;
+  }
+
+  .popup.modal-body p {
+    font-size: 1rem;
+    margin-top: -12px;
+  }
+}

@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Template TecEagle</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <!--Fim dos links bootstrap -->
+
+  <!-- FONTAWESOME ICONS -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous" />
+  <!--FIM FONTAWESOME -->
+
+  <!-- GOOGLE FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Lora:wght@500;700&family=Noto+Sans:wght@400;700&display=swap"
+    rel="stylesheet" />
+  <!-- FIM GOOGLE FONTS -->
+
+  <!--importação do CSS -->
+  <link rel="stylesheet" type="text/css" href="css/global.css" />
+  <link rel="stylesheet" type="text/css" href="css/menu.css" />
+  <link rel="stylesheet" href="css/produtos/sobre.css">
+  <link rel="stylesheet" type="text/css" href="css/produtos/filtro.css" />
+  <link rel="stylesheet" type="text/css" href="css/produtos/aneis.css" />
+  <link rel="stylesheet" type="text/css" href="css/rodape.css" />
+
+  <!-- fim do CSS -->
+</head>
+
+<body>
+  <!-- Parte superior do menu -->
+  <div class="fixed-top topo-menu">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12 menu-logo">
+          <!--imagem de topo -->
+          <img src="./img/logo_institucional.png" alt="Logo" />
+          <!-- fim da imagem de topo -->
+          <!-- texto menu  -->
+          <div>
+            <h1>SINDIJOIAS-RJ</h1>
+            <p>
+              SINDICATO DAS INDÚSTRIAS DE JOIAS E LAPIDAÇÃO<br />
+              DE PEDRAS PRECIOSAS DO RIO DE JANEIRO
+            </p>
+          </div>
+          <!-- fim texto menu -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Fim da Parte Superior do Menu -->
+
+  <!-- Inicio área do Menu -->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-light joia">
+    <a class="navbar-brand" href="#" style="display: none">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav itens-menu">
+        <li class="nav-item active">
+          <a class="nav-link" href="#carouselExampleIndicators">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#sobre">Sobre</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#empresas">Lojas</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contato">Contato</a>
+        </li>
+        <li class="nav-item">
+          <button data-toggle="modal" data-target="#login-modal">
+            <i class="fas fa-user"></i>
+          </button>
+        </li>
+        <li class="nav-item">
+          <button>
+            <i class="fas fa-search"></i>
+          </button>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- Fim área do Menu -->
+
+  <!-- sobre empresa -->
+  <section class="sobre" id="sobre">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <center>
+            <h2>Sobre a empresa</h2>
+          </center>
+          <div class="row texto-sobre">
+            <div class="col-md-6">
+              <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quis veniam sequi rerum consectetur!
+                  Asperiores incidunt impedit velit harum fugit. Dolorem dicta odit aut suscipit, quo similique quam
+                  magni voluptatem veritatis sapiente libero nihil consectetur ad, veniam maxime exercitationem quasi
+                  distinctio laboriosam commodi! Veniam consequuntur sed quibusdam voluptatibus exercitationem
+                  praesentium? Nam dignissimos dolores ex est, cum deserunt tempore quaerat iste pariatur autem
+                  voluptatum, harum repellendus odio tempora perferendis modi voluptates.</p>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores, sit aliquid vitae eos cupiditate
+                  voluptate libero officia suscipit modi mollitia eveniet numquam blanditiis deleniti fugit sequi quis
+                  architecto rerum rem quae. Obcaecati odio recusandae qui nesciunt, facere, maiores, perferendis ut
+                  labore odit quae nostrum? Nemo, dignissimos nobis doloribus illum voluptates asperiores consequatur
+                  dolorum fuga maiores molestias eum, aspernatur obcaecati suscipit qui veniam nam! Magni sapiente eaque
+                  omnis. Eveniet, consectetur impedit!</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- fim sobre empresa -->
+  <!-- início menu de filtragem -->
+  <section class="categorias">
+    <div class="container">
+      <div>
+        <form class="row g-3">
+          <div class="col-md-4">
+            <div>
+              <input type="text" class="form-control" id="produto_nome" placeholder="Nome do produto" />
+            </div>
+          </div>
+
+          <div class="col-md-2">
+            <div>
+              <select class="form-select filtro" id="produto_tipo" name="produto_tipo">
+                <option selected>Tipo</option>
+                <option value="lançamentos">Lançamentos</option>
+                <option value="aneis">Anéis</option>
+                <option value="brincos">Brincos</option>
+                <option value="colares_pingentes">Colares e Pingentes</option>
+                <option value="pulseiras">Pulseiras</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="col-md-2">
+            <div>
+              <select class="form-select filtro" id="produto_material" name="produto_material">
+                <option selected>Material</option>
+                <option value="ouro_amarelo">Ouro Amarelo</option>
+                <option value="ouro_branco">Ouro Branco</option>
+                <option value="prata">Prata</option>
+                <option value="diversos">Diversos</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="col-md-2">
+            <div>
+              <select class="form-select filtro" id="produto_tamanho" name="produto_tamanho">
+                <option selected>Tamanho</option>
+                <option value="ouro_amarelo">Tamanho 1</option>
+                <option value="ouro_branco">Tamanho 2</option>
+                <option value="prata">Tamanho 3</option>
+                <option value="diversos">Tamanho 4</option>
+              </select>
+            </div>
+          </div>
+          <div>
+            <button type="submit" class="btn btn-primary">Filtrar</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+  <!-- fim menu de filtragem -->
+
+  <!-- Anéis -->
+  <section class="aneis">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+          <center>
+            <h2>Anéis</h2>
+          </center>
+          <!-- inicio da linha de colunas dos anéis -->
+          <div class="row">
+            <div class="col-md-3 anel">
+              <div>
+                <div>
+                  <img src="./img/categoria_aneis.jpg" alt="anel" />
+                  <p>Anel Ouro<br />18K Pedra solitária<br />Diamante</p>
+                </div>
+                <div class="botoes">
+                  <button>Provar</button>
+                  <button>Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 anel">
+              <div>
+                <div>
+                  <img src="./img/categoria_aneis.jpg" alt="anel" />
+                  <p>Anel Ouro<br />18K Pedra solitária<br />Diamante</p>
+                </div>
+                <div class="botoes">
+                  <button>Provar</button>
+                  <button>Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 anel">
+              <div>
+                <div>
+                  <img src="./img/categoria_aneis.jpg" alt="anel" />
+                  <p>Anel Ouro<br />18K Pedra solitária<br />Diamante</p>
+                </div>
+                <div class="botoes">
+                  <button>Provar</button>
+                  <button>Comprar</button>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 anel">
+              <div>
+                <div>
+                  <img src="./img/categoria_aneis.jpg" alt="anel" />
+                  <p>Anel Ouro<br />18K Pedra solitária<br />Diamante</p>
+                </div>
+                <div class="botoes">
+                  <button>Provar</button>
+                  <button>Comprar</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <!-- inicio da linha de colunas dos anéis -->
+            <div class="row">
+              <div class="col-md-3 anel">
+                <div>
+                  <div>
+                    <img src="./img/categoria_aneis.jpg" alt="anel" />
+                    <p>Anel Ouro<br />18K Pedra solitária<br />Diamante</p>
+                  </div>
+                  <div class="botoes">
+                    <button>Provar</button>
+                    <button>Comprar</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 anel">
+                <div>
+                  <div>
+                    <img src="./img/categoria_aneis.jpg" alt="anel" />
+                    <p>Anel Ouro<br />18K Pedra solitária<br />Diamante</p>
+                  </div>
+                  <div class="botoes">
+                    <button>Provar</button>
+                    <button>Comprar</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 anel">
+                <div>
+                  <div>
+                    <img src="./img/categoria_aneis.jpg" alt="anel" />
+                    <p>Anel Ouro<br />18K Pedra solitária<br />Diamante</p>
+                  </div>
+                  <div class="botoes">
+                    <button>Provar</button>
+                    <button>Comprar</button>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-3 anel">
+                <div>
+                  <div>
+                    <img src="./img/categoria_aneis.jpg" alt="anel" />
+                    <p>Anel Ouro<br />18K Pedra solitária<br />Diamante</p>
+                  </div>
+                  <div class="botoes">
+                    <button>Provar</button>
+                    <button>Comprar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+  </section>
+  <!-- fim Anéis -->
+
+  <!-- Inicio do rodapé -->
+  <section class="rodape">
+    <div class="container-fluid">
+      <div class="row" id="rodape-cover">
+        <div class="col-md-6">
+          <h4>
+            SINDICATO DAS INDÚSTRIAS DE JOIAS E LAPIDAÇÃO DO RIO DE JANEIRO
+          </h4>
+          <p>CNPJ: 0000000000000/000</p>
+          <p>AV. RIO BRANCO 56, EDIFÍCIO RIO BRANCO, RIO DE JANEIRO - RJ</p>
+        </div>
+
+        <div class="col-md-3" id="rodape-social">
+          <h4>SIGA-NOS</h4>
+          <div>
+            <i class="fab fa-instagram rodape-social-item"></i>
+            <i class="fab fa-facebook-square rodape-social-item"></i>
+            <i class="fab fa-twitter-square rodape-social-item"></i>
+          </div>
+        </div>
+        <div class="col-md-3" id="rodape-institucional">
+          <h4>INSTITUCIONAL</h4>
+
+          <div class="rodape-institucional-item">
+            <i class="far fa-gem"></i>
+            <p>QUEM SOMOS</p>
+          </div>
+
+          <div class="rodape-institucional-item">
+            <i class="far fa-gem"></i>
+            <p>TERMOS DE USO</p>
+          </div>
+
+          <div class="rodape-institucional-item">
+            <i class="far fa-gem"></i>
+            <p>POLÍTICA DE SEGURANÇA E PRIVACIDADE</p>
+          </div>
+        </div>
+      </div>
+      <div class="row" id="desenvolvedora">
+        <p>DESENVOLVIDO POR TECEAGLE</p>
+        <img src="./img/logo_teceagle.png" alt="Logo TecEagle" width="30" />
+      </div>
+    </div>
+  </section>
+  <!-- fim do rodapé -->
+</body>
+
+</html>

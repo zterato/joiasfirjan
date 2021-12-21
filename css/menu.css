@@ -1,6 +1,7 @@
 /* Topo Menu */
 .topo-menu {
-  font: "Lora", serif, 700;
+  font-family: "Lora", serif;
+  font-weight: 700;
   width: 100%;
   height: 125px;
   background-color: #e6d569;
@@ -14,9 +15,8 @@
   align-items: center;
 }
 
-.menu-logo i {
-  color: white;
-  font-size: 5.4rem;
+.menu-logo img {
+  margin-top: -18px;
 }
 
 .menu-logo > div {
@@ -74,12 +74,20 @@
   background-color: white;
 }
 
+li.nav-item button {
+  background-color: transparent;
+  border: none;
+  color: white;
+}
+li.nav-item button:focus {
+  outline: none;
+}
 /* Fim area do menu */
 
 /************************************************************************/
 
 /* DESKTOP */
-@media (min-width: 1280px) {
+@media (min-width: 1024px) {
   .joia {
     margin-top: 125px;
   }
@@ -96,7 +104,7 @@
 /************************************************************************/
 
 /* TABLET */
-@media (min-width: 768px) and (max-width: 1279px) {
+@media (min-width: 768px) and (max-width: 1023px) {
   .joia {
     margin-top: 125px;
   }
@@ -118,8 +126,8 @@
     margin-top: 60px;
   }
 
-  .menu-logo i {
-    font-size: 1.5rem;
+  .menu-logo img {
+    margin: auto;
   }
 
   .menu-logo h1 {
