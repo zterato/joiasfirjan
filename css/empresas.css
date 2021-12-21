@@ -1,0 +1,51 @@
+.empresas {
+  margin: 2rem auto 2rem auto;
+}
+
+.empresas h2:first-of-type {
+  margin-bottom: 1.4rem;
+  font-family: "Lora", serif;
+  font-size: 1.8rem;
+}
+
+.empresas-item {
+  background-color: yellow;
+  border: 1px solid whitesmoke;
+  text-align: center;
+}
+
+/************************************************************************/
+
+/* DESKTOP */
+@media (min-width: 1280px) {
+  .empresas-item {
+    min-height: 150px;
+  }
+}
+
+/************************************************************************/
+
+/* TABLET */
+@media (min-width: 768px) and (max-width: 1279px) {
+  .empresas-item {
+    min-height: 100px;
+    background-color: yellow;
+    margin-bottom: 0.6rem;
+  }
+  .empresas-item:last-of-type {
+    margin-bottom: auto;
+  }
+}
+
+/************************************************************************/
+/* SMARTPHONE */
+@media (min-width: 360px) and (max-width: 767px) {
+  .empresas-item {
+    min-height: 100px;
+    background-color: yellow;
+    margin-bottom: 0.6rem;
+  }
+  .empresas-item:last-of-type {
+    margin-bottom: auto;
+  }
+}

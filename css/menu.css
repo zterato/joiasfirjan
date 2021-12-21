@@ -1,0 +1,145 @@
+/* Topo Menu */
+.topo-menu {
+  font: "Lora", serif, 700;
+  width: 100%;
+  height: 125px;
+  background-color: #e6d569;
+}
+
+.menu-logo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-logo i {
+  color: white;
+  font-size: 5.4rem;
+}
+
+.menu-logo > div {
+  flex-direction: column;
+  text-align: center;
+  margin-left: 10px;
+}
+
+.menu-logo h1 {
+  font-size: 2.6rem;
+}
+
+.menu-logo p {
+  font-size: 0.7rem;
+}
+/* Fim topo menu */
+
+/* Area do Menu */
+
+.joia {
+  background-color: #d7c966;
+  border-bottom: #e6d569 12px solid;
+  color: white;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: white;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+  color: #d7c966;
+}
+.navbar-light .navbar-nav .active > .nav-link {
+  color: white;
+}
+.navbar-light .navbar-nav .active > .nav-link:hover {
+  color: #d7c966;
+}
+
+.nav-item {
+  margin: 0 1rem;
+}
+
+.navbar-nav.itens-menu {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.nav-link {
+  width: 100%;
+}
+
+.nav-link:hover {
+  background-color: white;
+}
+
+/* Fim area do menu */
+
+/************************************************************************/
+
+/* DESKTOP */
+@media (min-width: 1280px) {
+  .joia {
+    margin-top: 125px;
+  }
+  .navbar-nav.itens-menu {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+/************************************************************************/
+
+/* TABLET */
+@media (min-width: 768px) and (max-width: 1279px) {
+  .joia {
+    margin-top: 125px;
+  }
+
+  .navbar-nav.itens-menu {
+    flex-direction: column;
+  }
+}
+
+/************************************************************************/
+/* SMARTPHONE */
+@media (min-width: 360px) and (max-width: 767px) {
+  /* Topo Menu */
+  .topo-menu {
+    height: 60px;
+  }
+
+  .joia {
+    margin-top: 60px;
+  }
+
+  .menu-logo i {
+    font-size: 1.5rem;
+  }
+
+  .menu-logo h1 {
+    font-size: 1.5rem;
+    margin: auto 0px;
+  }
+
+  .menu-logo p {
+    display: none;
+  }
+  /* Fim topo menu */
+
+  /* Area do Menu */
+  .navbar-nav.itens-menu {
+    flex-direction: column;
+  }
+
+  .nav-item {
+    margin: auto;
+  }
+
+  /* Fim area do menu */
+}
