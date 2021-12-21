@@ -1,0 +1,83 @@
+.aneis {
+  margin: 3rem auto 1rem auto;
+}
+
+.aneis h2:first-of-type {
+  margin-bottom: 1.4rem;
+  font-family: "Lora", serif;
+  font-size: 1.8rem;
+  color: #FFCD00;
+}
+
+.anel {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.anel > div {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: center;
+  width: 70%;
+  box-shadow: black 1px -1px 6px -4px;
+}
+
+.anel img {
+  width: 200px;
+  height: 250px;
+}
+
+.anel p {
+  text-align: center;
+}
+
+.botoes {
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.botoes button {
+  background-color: #ffcd00;
+  color: white;
+  font-weight: 500;
+  border-radius: 14px;
+  width: 100px;
+  height: 40px;
+  padding-bottom: 6px;
+  border: none;
+  margin-bottom: 10px;
+}
+
+.botoes button:hover {
+  transition: 400ms;
+  background-color: #ffffff;
+  color: #ffcd00;
+  border: #ffcd00 1px solid;
+  cursor: pointer;
+}
+
+
+/************************************************************************/
+
+/* DESKTOP */
+@media (min-width: 1024px) {
+  .anel {
+    margin: auto auto 1.5rem auto
+  }
+}
+
+/************************************************************************/
+
+/* TABLET */
+@media (min-width: 768px) and (max-width: 1023px) {
+}
+
+/************************************************************************/
+/* SMARTPHONE */
+@media (min-width: 360px) and (max-width: 767px) {
+}
+

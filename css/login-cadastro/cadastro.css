@@ -1,0 +1,62 @@
+html {
+  font-family: "Noto Sans", sans-serif;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.form-control:focus, .form-select:focus {
+  border: none;
+  box-shadow: none;
+}
+
+.box {
+  width: 100%;
+  background-color: #f5d95a;
+  color: #ffffff;
+  border-radius: 20px;
+  margin-top: 15vh;
+}
+
+.register-title {
+  padding-top: 20px;
+}
+
+.row.g-3:first-of-type {
+  margin: 10px;
+}
+
+.btn.btn-primary {
+  background-color: #191919;
+  border: none;
+  color: #ffffff;
+  font-weight: 600;
+  width: 150px;
+}
+.btn.btn-primary:hover {
+  background-color: #ffffff;
+  border: none;
+  color: #ffcd00;
+  font-weight: 600;
+  width: 150px;
+  transition: 300ms;
+}
+
+/************************************************************************/
+
+/* DESKTOP */
+@media (min-width: 1024px) {
+}
+
+/************************************************************************/
+
+/* TABLET */
+@media (min-width: 768px) and (max-width: 1023px) {
+}
+
+/************************************************************************/
+/* SMARTPHONE */
+@media (min-width: 360px) and (max-width: 767px) {
+}

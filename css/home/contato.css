@@ -1,0 +1,49 @@
+.contato {
+  margin: 2rem auto 2rem auto;
+}
+
+.contato h2:first-of-type {
+  margin-bottom: 1.4rem;
+  font-family: "Lora", serif;
+  font-size: 1.5rem;
+  color: #ffcd00;
+}
+
+.contato h3 {
+  font-size: 1.4rem;
+}
+
+.contato form {
+  margin-top: 1.4rem;
+}
+
+form input[type="submit"] {
+  background-color: #ffcd00;
+  color: white;
+  border: none;
+  font-weight: 500;
+}
+form input[type="submit"]:hover,
+form input[type="submit"]:active, form input[type="submit"]:focus {
+  transition: 400ms;
+  background-color: #ffffff;
+  color: #ffcd00;
+  border: #ffcd00 1px solid;
+}
+
+/************************************************************************/
+
+/* DESKTOP */
+@media (min-width: 1280px) {
+}
+
+/************************************************************************/
+
+/* TABLET */
+@media (min-width: 768px) {
+}
+
+/************************************************************************/
+/* SMARTPHONE */
+@media (min-width: 360px) {
+}
